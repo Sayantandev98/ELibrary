@@ -6,6 +6,8 @@
     <div class="login-page">
   <div class="form">
       <form action="">
+          <center><img width="150px" src="images/sign-up.png" class="img-fluid"/></center>
+          <center><h3>Register</h3></center>
           <label for="fname">First Name:</label>
           <input type="text" id="fname" name="fname">
 

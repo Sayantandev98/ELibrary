@@ -7,6 +7,7 @@
     <div class="form">
         <form action="/check-login" method="post">
             <center><img width="150px" src="images/generaluser.png" class="img-fluid" /></center>
+            <center><h3>User Login</h3></center>
             <label for="memberId">Member ID</label>
             <input id="memberId" type="text" name="memberId" required>
             <label for="password">Password</label>
