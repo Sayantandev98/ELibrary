@@ -16,5 +16,6 @@
             <p class="message">Not registered? <a href="/signup">Create an account</a></p>
         </form>
     </div>
+        <a href="Homepage.aspx">Back to home</a>
 </div>
 </asp:Content>
