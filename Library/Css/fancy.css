@@ -1,0 +1,56 @@
+﻿.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: left; /* Change text-align to left for labels */
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+    .form label {
+        font-size: 14px;
+        font-weight: normal;
+        display: inline-block; /* Display labels inline */
+        width: 40%; /* Adjust width as needed */
+    }
+
+    .form input {
+        display: inline-block; /* Display inputs inline */
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        font-size: 14px;
+        height: auto;
+        width: 55%; /* Adjust width as needed */
+    }
+
+    .form button {
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        border: 1px solid #7AC943;
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #7AC943;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+        .form button:hover {
+            cursor: pointer;
+            background-color: #6AA83E;
+        }
+
