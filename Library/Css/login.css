@@ -1,73 +1,16 @@
-﻿.login-page {
-    width: 360px;
-    padding: 8% 0 0;
-    margin: auto;
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
 }
 
-.form {
-    position: relative;
-    z-index: 1;
-    background: #FFFFFF;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
-    text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    .footerlinks:hover {
+        color: #ffd800;
+    }
+
+#footer1 {
+    background: #762b00;
 }
 
-    .form label {
-        font-size: 14px;
-        font-weight: normal;
-    }
-
-    .form input {
-        display: block;
-        padding: 10px 20px;
-        margin-bottom: 10px;
-        border-radius: 2px;
-        border: 1px solid #CCCCCC;
-        box-sizing: border-box;
-        font-size: 14px;
-        height: auto;
-        width: 100%;
-    }
-
-    .form button {
-        display: block;
-        width: 100%;
-        padding: 10px 20px;
-        margin-bottom: 10px;
-        border-radius: 2px;
-        border: 1px solid #7AC943;
-        box-sizing: border-box;
-        text-align: center;
-        background-color: #7AC943;
-        color: white;
-        font-weight: bold;
-        font-size: 14px;
-    }
-
-        .form button:hover {
-            cursor: pointer;
-            background-color: #6AA83E;
-        }
-
-.message {
-    margin: 10px 0 0;
-    color: #7AC943;
-    font-size: 14px;
-}
-
-    .message a {
-        color: #7AC943;
-        text-decoration: none;
-    }
-
-        .message a:hover {
-            text-decoration: underline;
-        }
-
-input[type="radio"] {
-    display: inline-block;
-    margin-right: 5px; /* Adjust the margin as needed */
+#footer2 {
+    background: #531f00;
 }
