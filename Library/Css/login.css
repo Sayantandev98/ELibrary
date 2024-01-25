@@ -1,4 +1,5 @@
-﻿.footerlinks {
+﻿@import url('login.css');
+.footerlinks {
     color: #ffffff;
     text-decoration: none !important;
 }
