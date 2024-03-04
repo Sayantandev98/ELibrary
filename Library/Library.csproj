@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminbookinventory.aspx" />
     <Content Include="adminusermgmt.aspx" />
     <Content Include="Authormanagement.aspx" />
     <Content Include="Bookissue.aspx" />
@@ -2181,6 +2182,13 @@
     <Content Include="AdminLogin.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminbookinventory.aspx.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminbookinventory.aspx.designer.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminusermgmt.aspx.cs">
       <DependentUpon>adminusermgmt.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
